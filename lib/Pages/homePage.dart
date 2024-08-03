@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
 
   Future getTeams() async {
     String url = "https://api.balldontlie.io/v1/teams";
-    String api_key = "7cf8c89b-a10e-463a-b3ef-35035e3c988a";
+    String api_key = "API_KEY";
 
     var response = await http.get(
       Uri.parse(url),
